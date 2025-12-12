@@ -1,0 +1,73 @@
+###############################
+# PYTHON BACKEND
+###############################
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myenv/
+venv/
+.env
+.env.*
+*.venv
+
+# VS Code Python cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.mypy_cache/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python misc
+*.log
+
+###############################
+# REACT FRONTEND
+###############################
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+
+###############################
+# OS / EDITOR FILES
+###############################
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+###############################
+# OTHER LOCAL FILES
+###############################
+
+# Temp / cache
+*.tmp
+*.cache
